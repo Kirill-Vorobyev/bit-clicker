@@ -1,0 +1,27 @@
+/*.box{
+    margin: 32px auto;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 350px;
+    height: 110px;
+    box-shadow: 3px 5px 5px darkGrey;
+    border: 1px solid grey;
+}*/
+
+.box:hover{
+    background-color: rgb(255, 237, 134)
+}
+
+.upgrade{
+    margin-top: 12px;
+    font-weight: bold;
+    color: rgb(0, 0, 192);
+}
+
+.cost{
+    margin-top: -12px;
+}
+
+.current{
+    color: rgb(100, 100, 100);
+}

@@ -1,0 +1,26 @@
+.flyText {
+    position: absolute;
+    font-size: 24px;
+    top: 175px;
+    left: 50%;
+    animation-name: flyUp;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    opacity: 0;
+}
+
+@keyframes flyUp {
+    0% {
+        font-size:18px;
+        transform: translateY(0);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    100% {
+        font-size: 36;
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
