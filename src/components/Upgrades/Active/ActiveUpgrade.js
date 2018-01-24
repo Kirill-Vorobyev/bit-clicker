@@ -14,7 +14,8 @@ const activeUpgrade = (props) => {
         paddingLeft: '20px',
         paddingTop: '5px',
         width: '350px',
-        height: '110px',
+        minHeight: '110px',
+        'overflow-y': 'auto',
         boxShadow: '3px 5px 5px darkGrey',
         border: '1px solid grey',
     }

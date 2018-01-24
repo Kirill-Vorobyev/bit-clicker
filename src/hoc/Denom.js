@@ -12,13 +12,13 @@ const denom = (props) => {
             return thousands(input / 8);
             break;
         case ('kbs'):
-            return thousands(input / (8 * Math.pow(2,10)));
+            return thousands((input / (8 * Math.pow(2,10))).toFixed(6));
             break;
         case ('mbs'):
-            return thousands(input / (8 * Math.pow(2,20)));
+            return thousands((input / (8 * Math.pow(2,20))).toFixed(6));
             break;
         case ('gbs'):
-            return thousands(input / (8 * Math.pow(2,30)));
+            return thousands((input / (8 * Math.pow(2,30))).toFixed(6));
             break;
         default:
             return thousands(input);
