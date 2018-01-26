@@ -6,3 +6,5 @@ Local incremental game utilizing core react concepts.
 - Spends bits on upgrades
 - Repeat
 - The currency can be changed by clicking on the denomination in the main counter.
+
+Demo: http://kirill-vorobyev.github.io/bit-clicker
